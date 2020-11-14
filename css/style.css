@@ -29,6 +29,19 @@
     width: 100%;
 }
 
+.gradiente {
+    background: radial-gradient(ellipse, rgba(159,196,248,0.8) 10%, rgba(6,84,148,0.8) 100%);
+}
+
+.fondo {
+    
+    background-image: url('../imagenes/fondo\ pagina.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-attachment: fixed;
+}
+
 @media screen and (max-width:767.98px){
     
     .video {
